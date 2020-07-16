@@ -1,0 +1,28 @@
+.Card_1{
+    border: 2px solid #dddffd;
+    padding :2% 2% 2% 2%;
+    margin:4%;
+    border-radius: 10%;
+}
+
+.Card_2{
+    border: 2px solid #dddffd;
+    padding :2% 2% 2% 2%;
+    margin:4%;
+    border-radius: 10%;
+}
+
+.Card_3{
+    border: 2px solid #dddffd;
+    padding :2% 2% 2% 2%;
+    margin:4%;
+    border-radius: 10%;
+}
+
+.Card_View{
+    text-align: center;
+    
+    display:flex;
+    border:2px solid #ddd;
+    margin:
+}
