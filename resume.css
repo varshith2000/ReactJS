@@ -1,0 +1,34 @@
+.a{
+    border: 2px solid #dddffd;
+    padding :2% 2% 2% 2%;
+    margin:4%;
+    border-radius: 4%;
+    background-color: thistle;
+    
+}
+.C{
+    text-align: center;
+    
+    display:flex;
+    border:2px solid #ddd;
+    background-color: rgb(161, 216, 218);
+}
+
+.b{
+    border: 2px solid #dddffd;
+    padding :2% 2% 2% 2%;
+    margin:4%;
+    border-radius: 4%;
+    background-color: thistle;
+   
+}
+table, th, td{
+    border:2px solid black;
+    
+}
+.a:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+}
+.b:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+}
