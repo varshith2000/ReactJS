@@ -1,0 +1,47 @@
+{
+    "details":{
+        "name":"Varshith" ,
+        "image":"5.png" ,
+        "email" : "chennuruvarshit@gmail.com",
+        "number":"+91 6309168431",
+        "address":"Vizianagaram"
+    },
+    "careerobjective":{
+        "info":"To become a Full Stack Developer"
+    },
+    "educationalqualification":[
+        {
+            "institute":"Lendi Institute of Engineering and Technology",
+            "degree":"B.tech",
+            "passoutyear":"2022",
+			"percentage":"8.01"
+        },
+        {
+            "institute":"Narayana Junioiur College",
+			"degree":"Intermediate",
+			"passoutyear":"2018",
+			"percentage":"86%"
+        },
+        {
+            "institute":"Sun School",
+			"degree":"SSc",
+			"passoutyear":"2016",
+			"percentage":"9.2"
+        }
+        
+    ],
+    "technicalskills":[
+        {
+            "title":"Programming Languages",
+            "info":["c,c++,java,python,R,Prolog,Html,Css"]
+        },
+        {
+            "title":"Databases",
+            "info":["oracle,sql,mysql,TinyDB,mongodb"]
+        },
+        {
+            "title":"OPerating system",
+		"info":["windows,linux,ubuntu"]
+        }
+    ]
+}

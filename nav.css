@@ -1,0 +1,9 @@
+.A{
+    background-color : lightgray;
+    text-align: center;
+    justify-content: center;
+}
+
+#va:hover{
+    background-color: #669900;
+}

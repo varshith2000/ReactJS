@@ -1,0 +1,364 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+background-image: url(./6.jpg);
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.card1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20rem;
+    height: 75vh;
+    margin: 4rem;
+    text-align: center;
+    transition: 0.5s;
+   
+}
+.card1 p{
+    margin: 10px;
+    font-size: 1.1rem;
+}
+.child1{
+    justify-content: left;
+    margin: 2rem;
+    text-align: left;
+}
+.link1{
+    text-align: center;
+}
+.link1 button{
+   font-size: 1.5rem;
+   padding: 10px;
+   border-radius: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: 2px solid black;
+   background: transparent;
+   margin-top: 1.5rem;
+   transition: 1s;
+   cursor: pointer;
+   margin-left: auto;
+   margin-right: auto;
+}
+.link1 button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+    background-color:rgba(0, 0, 0, 0.541);
+    color: white;
+}
+.image1{
+    margin-top: 10px;
+}
+.card2{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20rem;
+    height: 75vh;
+    margin: 4rem;
+    text-align: center;
+    transition: 0.5s;
+}
+.card2 p{
+    margin: 10px;
+    font-size: 1.1rem;
+}
+.child2{
+    justify-content: left;
+    margin: 2rem;
+    text-align: left;
+}
+.link2{
+    text-align: center;
+}
+.link2 button{
+   font-size: 1.5rem;
+   padding: 10px;
+   border-radius: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: 2px solid black;
+   background: transparent;
+   maxrgin-top: 1.5rem;
+   transition: 1s;
+   cursor: pointer;
+}
+.link2 button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+    background-color:rgba(0, 0, 0, 0.541);
+    color: white;
+}
+.image2{
+    margin-top: 10px;
+}
+.main{
+    justify-content: space-around;
+}
+.card1:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+    background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+    font-weight: 525;
+    color: white;
+   
+}
+.card2:hover{
+    box-shadow: 0 25px 60px rgba(0,0,0,.8);
+    background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+    color: white;
+}
+
+@media screen and (max-width: 500px) and (min-width: 375px){
+    .main{
+        background-image: url(./6.jpg);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+        .card1{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 20rem;
+            height: 75vh;
+            margin: 4rem;
+            text-align: center;
+            transition: 0.5s;
+           
+        }
+        .card1 p{
+            margin: 10px;
+            font-size: 1.1rem;
+        }
+        .child1{
+            justify-content: left;
+            margin: 2rem;
+            text-align: left;
+        }
+        .link1{
+            text-align: center;
+        }
+        .link1 button{
+           font-size: 1.5rem;
+           padding: 10px;
+           border-radius: 100px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border: 2px solid black;
+           background: transparent;
+           margin-top: 1.5rem;
+           transition: 1s;
+           cursor: pointer;
+           margin-left: auto;
+           margin-right: auto;
+        }
+        .link1 button:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background-color:rgba(0, 0, 0, 0.541);
+            color: white;
+        }
+        .image1{
+            margin-top: 10px;
+        }
+        .card2{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 20rem;
+            height: 75vh;
+            margin: 4rem;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .card2 p{
+            margin: 10px;
+            font-size: 1.1rem;
+        }
+        .child2{
+            justify-content: left;
+            margin: 2rem;
+            text-align: left;
+        }
+        .link2{
+            text-align: center;
+        }
+        .link2 button{
+           font-size: 1.5rem;
+           padding: 10px;
+           border-radius: 100px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border: 2px solid black;
+           background: transparent;
+           maxrgin-top: 1.5rem;
+           transition: 1s;
+           cursor: pointer;
+        }
+        .link2 button:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background-color:rgba(0, 0, 0, 0.541);
+            color: white;
+        }
+        .image2{
+            margin-top: 10px;
+        }
+        .main{
+            justify-content: space-around;
+        }
+        .card1:hover{
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+            font-weight: 525;
+            color: white;
+           
+        }
+        .card2:hover{
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+            color: white;
+        }
+        
+}
+
+@media screen and (max-width: 375px){
+    .main{
+        background-image: url(./6.jpg);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+        .card1{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 20rem;
+            height: 75vh;
+            margin: 4rem;
+            text-align: center;
+            transition: 0.5s;
+           
+        }
+        .card1 p{
+            margin: 10px;
+            font-size: 1.1rem;
+        }
+        .child1{
+            justify-content: left;
+            margin: 2rem;
+            text-align: left;
+        }
+        .link1{
+            text-align: center;
+        }
+        .link1 button{
+           font-size: 1.5rem;
+           padding: 10px;
+           border-radius: 100px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border: 2px solid black;
+           background: transparent;
+           margin-top: 1.5rem;
+           transition: 1s;
+           cursor: pointer;
+           margin-left: auto;
+           margin-right: auto;
+        }
+        .link1 button:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background-color:rgba(0, 0, 0, 0.541);
+            color: white;
+        }
+        .image1{
+            margin-top: 10px;
+        }
+        .card2{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 20rem;
+            height: 75vh;
+            margin: 4rem;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .card2 p{
+            margin: 10px;
+            font-size: 1.1rem;
+        }
+        .child2{
+            justify-content: left;
+            margin: 2rem;
+            text-align: left;
+        }
+        .link2{
+            text-align: center;
+        }
+        .link2 button{
+           font-size: 1.5rem;
+           padding: 10px;
+           border-radius: 100px;
+           padding-left: 20px;
+           padding-right: 20px;
+           border: 2px solid black;
+           background: transparent;
+           maxrgin-top: 1.5rem;
+           transition: 1s;
+           cursor: pointer;
+        }
+        .link2 button:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background-color:rgba(0, 0, 0, 0.541);
+            color: white;
+        }
+        .image2{
+            margin-top: 10px;
+        }
+        .main{
+            justify-content: space-around;
+        }
+        .card1:hover{
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+            font-weight: 525;
+            color: white;
+           
+        }
+        .card2:hover{
+            box-shadow: 0 25px 60px rgba(0,0,0,.8);
+            background: linear-gradient(90deg, rgba(0,0,0,0.19681375968356096) 100%, rgba(105,105,105,1) 100%, rgba(75,75,75,1) 100%);
+            color: white;
+        }
+        
+}
